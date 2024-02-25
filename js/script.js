@@ -12,7 +12,7 @@ console.log(allLines);
 
 
 /* #2*/
-//
+
 // const
 //     num = 12345,
 //     arr = ('' + num).split('')
@@ -24,4 +24,10 @@ console.log(allLines);
 // let str = String.raw`12345`;
 //
 // console.log(str.split("").join(" "));
+
+/*or*/
+
+// let num = 42378;
+// let result = num.toString().split('').join(' ');
+// console.log(result);
 
