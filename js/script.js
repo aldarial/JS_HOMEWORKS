@@ -3,113 +3,78 @@
 /*
 Task 1*/
 const a1 = 0;
-if ( a1 === 0 ){
-    console.log('Вірно')
-} else {
-    console.log('Неправильно')
-}
+const result1 = (a1 === 0)? 'Вірно': 'Неправильно'
+console.log(result1)
 
 /*
 Task 2*/
 const a2 = 1;
-if ( a2 > 0 ){
-    console.log('Вірно')
-} else {
-    console.log('Неправильно')
-}
+const result2 = (a2 > 0)? 'Вірно': 'Неправильно'
+console.log(result2)
 
 /*
 Task 3*/
 const a3 = -1;
-if ( a3 < 0 ){
-    console.log('Вірно')
-} else {
-    console.log('Неправильно')
-}
+const result3 = (a3 < 0)? 'Вірно': 'Неправильно'
+console.log(result3)
 
 /*
 Task 4*/
 const a4 = 1;
-if ( a4 >= 0 ){
-    console.log('Вірно')
-} else {
-    console.log('Неправильно')
-}
+const result4 = (a4 >= 0)? 'Вірно': 'Неправильно'
+console.log(result4)
 
 
 /*
 Task 5*/
 const a5 = -1;
-if ( a5 <= 0 ){
-    console.log('Вірно')
-} else {
-    console.log('Неправильно')
-}
+const result5 = (a5 >= 0)? 'Вірно': 'Неправильно'
+console.log(result5)
 
 /*
 Task 6*/
 const a6 = 1;
-if ( a6 !== 0 ){
-    console.log('Вірно')
-} else {
-    console.log('Неправильно')
-}
+const result6 = (a6 !== 0)? 'Вірно': 'Неправильно'
+console.log(result6)
 
 /*
 Task 7*/
 const a7 = 'test';
-if ( a7 === 'test' ){
-    console.log('Вірно')
-} else {
-    console.log('Неправильно')
-}
+const result7 = (a7 === 'test')? 'Вірно': 'Неправильно'
+console.log(result7)
 
 /*
 Task 8*/
 const a8 = '1';
-if ( a8 === '1' ){
-    console.log('Вірно')
-} else {
-    console.log('Неправильно')
-}
+const result8 = (a8 === '1')? 'Вірно': 'Неправильно'
+console.log(result8)
 
 /*
 Task 9*/
 const a9 = 4;
-if ( a9 > 0 && a9 < 5 ){
-    console.log('Вірно')
-} else {
-    console.log('Неправильно')
-}
+const result9 = ( a9 > 0 && a9 < 5 )? 'Вірно': 'Неправильно'
+console.log(result9)
 
 /*
 Task 10*/
 const a10 = 2;
-if ( a10 === 0 || a10 === 2){
-    console.log(a10 + 7)
-} else {
-    console.log(a10 / 10)
-}
+const result10 = ( a10 === 0 || a10 === 2)? 'Вірно': 'Неправильно'
+console.log(result10)
 
 /*
 Task 11*/
 const a11 = 1;
 const b1 = 3;
-if ( a11 <= 1 && b1 >= 3){
-    console.log(a11 + b1)
-} else {
-    console.log(a11 - b1)
-}
+const result11 = ( a11 <= 1 && b1 >= 3)? 'Вірно': 'Неправильно'
+console.log(result11)
+
 
 /*
 Task 12*/
 const a12 = 4;
 const b2 = 6;
-if ( a12 > 2 && a12 < 11 || b2 >= 6 && b2 < 14){
-    console.log('Вірно')
-} else {
-    console.log('Неправильно')
-}
+const result12 = ( a12 > 2 && a12 < 11 || b2 >= 6 && b2 < 14)? 'Вірно': 'Неправильно'
+console.log(result12)
 
 /*
 Task 13*/
