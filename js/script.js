@@ -1,15 +1,15 @@
 'use string'
 
 /*Task 1*/
-let x = 10, y = 7;
+const x = 10, y = 7;
 
-let result = (x > y)? 'x більше за y' : 'x не більше, ніж y'
+const result = (x > y)? 'x більше за y' : 'x не більше, ніж y'
  console.log(result)
 
-/*Task 3*/
+// /*Task 3*/
 
 const number = prompt('Введіть число')
-let num = parseInt(number);
+const num = parseInt(number);
 if (!isNaN(num)) {
  let length = Math.abs(num).toString().length;
 
@@ -35,7 +35,7 @@ if (!isNaN(num)) {
  console.log("Введено не ціле число або не число.");
 }
 
-/*Task 4*/
+// /*Task 4*/
 
 const number1 = +prompt('Please enter your first number')
 const number2 = +prompt('Please enter your second number')
@@ -51,11 +51,11 @@ if (number1 > number2 && number3) {
  }
 console.log(bigResult)
 
-/*Task 5*/
+// /*Task 5*/
 
-let side1 = parseFloat(prompt("Введіть довжину першої сторони:"));
-let side2 = parseFloat(prompt("Введіть довжину другої сторони:"));
-let side3 = parseFloat(prompt("Введіть довжину третьої сторони:"));
+const side1 = parseFloat(prompt("Введіть довжину першої сторони:"));
+const side2 = parseFloat(prompt("Введіть довжину другої сторони:"));
+const side3 = parseFloat(prompt("Введіть довжину третьої сторони:"));
 
 if (!isNaN(side1) && !isNaN(side2) && !isNaN(side3)) {
  if (side1 + side2 > side3 && side1 + side3 > side2 && side2 + side3 > side1) {
