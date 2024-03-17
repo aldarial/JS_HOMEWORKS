@@ -51,10 +51,16 @@ if (isPrime && number > 1) {
 
 /*Task 5*/
 const num2 = 81;
-for (let i = 1; i < num2; i++) {
+for (let i = 1;; i++) {
     const calcNum = 3 ** i;
-    if (calcNum !== num2) continue
 
-    console.log('result: ', calcNum)
-    break
+    if (calcNum > num2) {
+        console.log('Cannot find a number');
+        break
+    }
+    if(calcNum === num2){
+        console.log('result: ', calcNum)
+        break
+    }
+
 }
